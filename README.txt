@@ -28,7 +28,7 @@ BRING YOUR PROGRESS
 In your old HTML tracker, choose Export backup. In the hosted Tarnished app, choose Import backup and select that JSON file. Saves from local files or other domains do not automatically move. The existing backup format and local-storage key are preserved. Export regularly; clearing browser/site data removes progress. There is no automatic cross-device sync.
 
 UPDATES
-Upload the full new PWA package to the same site. If Update app appears, tap it to activate the cached update. Keep the same URL to retain local saves. Source edits must also change VERSION in sw.js so the cached shell updates.
+Upload the full new PWA package to the same site. The latest HTML loads automatically on the next online launch or refresh, while the cached copy remains available offline. Keep the same URL to retain local saves. Source edits must also change VERSION in sw.js so cached assets update.
 
 FILES
 index.html: complete editable tracker source, dataset, photos, and license notices
