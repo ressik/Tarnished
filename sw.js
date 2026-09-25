@@ -1,5 +1,5 @@
 // Tarnished offline shell. Incremented automatically when the packaged application changes.
-const VERSION='ba589e777490';
+const VERSION='b47218081dfd';
 const PREFIX='tarnished-'+self.registration.scope+'-';
 const CACHE=PREFIX+VERSION;
 const HOME=new URL('./',self.registration.scope).href;
